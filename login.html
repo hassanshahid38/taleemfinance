@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALEEM FINANCE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Outline&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&family=Timmana&family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="sign-up">   
+            <form>
+                <h1>Create Account</h1>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="button">Sign Up</button>
+            </form>
+        </div>
+        <div class="sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                
+                <span>or use your email account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button type="button">Log In</button>
+                <a href="#">Forgot your password?</a>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>If you already have an account, sign in here.</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>If you don't have an account, sign up here.</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="server.js"></script>
+</body>
+</html>

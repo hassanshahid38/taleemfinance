@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALEEM FINANCE</title>
+    <script src="server.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"
+        integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Outline&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&family=Timmana&family=Viga&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Londrina+Outline&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&family=Timmana&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Londrina+Outline&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Stylish&family=Timmana&family=Viga&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="head-nav">
+        TALEEM FINANCE COMPANY LIMITED
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assests/mainlogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#mvc">Mission, Vision & Core Values</a></li>
+                            <li><a class="dropdown-item" href="#">Main Sponsor</a></li>
+                            <li><a class="dropdown-item" href="#">Board Of Directors</a></li>
+                            <li><a class="dropdown-item" href="#">Chief Executive Officer</a></li>
+                            <li><a class="dropdown-item" href="#">Chairman's Message</a></li>
+                            <li><a class="dropdown-item" href="#">CEO's Message</a></li>
+                            <li><a class="dropdown-item" href="#">Management Team</a></li>
+                            <li><a class="dropdown-item" href="#">Organization Chart</a></li>
+                            <li><a class="dropdown-item" href="#">Licence</a></li>
+                            <li><a class="dropdown-item" href="#">Auditor & Legal Advisor</a></li>
+                            <li><a class="dropdown-item" href="#">Share Holding Pattern</a></li>
+                            <li><a class="dropdown-item" href="#">Latest Performance Analytics</a></li>
+                            <li><a class="dropdown-item" href="#">Notices Of General Meeting</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#wrap1">Taleem School Sarmaya</a></li>
+                            <li><a class="dropdown-item" href="#wrap2">Taleem School Asasah</a></li>
+                            <li><a class="dropdown-item" href="#wrap3">Taleem Teacher Sahulat</a></li>
+                            <li><a class="dropdown-item" href="#wrap4">Taleem Jari Sahulat</a></li>
+                            <li><a class="dropdown-item" href="#wrap5">Taleem Dost Sahulat</a></li>
+                            <li><a class="dropdown-item" href="#wrap6">Taleem Quality Improvement Program</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\hassa\OneDrive\Desktop\taleem connect\login.html\pages">Log in</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assests/bg3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/bg2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assests/bg1.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <img style="object-fit: cover;width: 100vw;filter: blur(1px);" src="bg.jpg" alt=""> -->
+    <div class="parent-c1">
+        <div class="container-1">
+            <h1>How much you want?</h1>
+            <h6>we provide loan only Empowering <br> every child's education </h6>
+            <hr>
+            <label for="select">Amount you want</label>
+            <select name="amount" id="amount">
+                <option value="">Select Amount</option>
+                <option value="">Category 1</option>
+                <option value="">Category 2</option>
+                <option value="">Category 3</option>
+                <option value="">Category 4</option>
+            </select>
+
+            <label for="select">duaration</label>
+            <select name="amount" id="amount">
+                <option value="">Select duaration</option>
+                <option value="">one month</option>
+                <option value="">six months</option>
+                <option value="">one year</option>
+                <option value="">2 years</option>
+            </select>
+            <button class="btn1">
+                APPLY NOW
+            </button>
+        </div>
+    </div>
+
+    <!-- <div class="core-values-container">
+          <h1>CORE VALUES</h1>
+          <div class="values-list">
+              <div class="value-item">
+                  <strong>T:</strong> Transparent
+                </div>
+                <div class="value-item">
+                    <strong>A:</strong> Action
+                </div>
+                <div class="value-item">
+                    <strong>L:</strong> Liberal
+                </div>
+                <div class="value-item">
+                    <strong>E:</strong> Excellence
+                </div>
+                <div class="value-item">
+            <strong>E:</strong> Enthusiastic
+        </div>
+        <div class="value-item">
+            <strong>M:</strong> Meritocracy
+          </div>
+        </div>
+    </div>
+    <div class="mission-vision">
+        <div class="mission">
+            <h2>Mission:</h2>
+            <p>To be the market leaders in providing financial and non-financial support to schools for improving their sustainability and overall learning outcomes resulting in higher employability for their students especially girls, thus contributing towards a gender equitable and literate society.</p>
+        </div>
+        <div class="vision">
+            <h2>Vision:</h2>
+            <p>Removing barriers to the rights of every child to get quality education leading to a more purposeful life.</p>
+        </div>
+     -->
+    <div class="txt">
+        <h1>Why people choose us</h1>
+        <h6>Removing barriers to the rights of every child <br> to get quality education leading <br> to a more
+            purposeful life.</h6>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="assests/fast-time.png" class="card-img-top" alt="Quick & Easy">
+            <div class="card-body">
+                <h3>Quick & Easy</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assests/credit.png" class="card-img-top" alt="Absolute Security">
+            <div class="card-body">
+                <h3>Absolute Security</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assests/approved.png" class="card-img-top" alt="Quick Approval">
+            <div class="card-body">
+                <h3>Quick Approval</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assests/rate.png" class="card-img-top" alt="Low Interest Rate">
+            <div class="card-body">
+                <h3>Low Interest Rate</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assests/secure-shield.png" class="card-img-top" alt="Personal Security">
+            <div class="card-body">
+                <h3>Personal Security</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assests/accounting.png" class="card-img-top" alt="Disbursement Day">
+            <div class="card-body">
+                <h3>Disbursement Day</h3>
+                <p class="card-text">Typography should be relevant and thought out. Type is so strong that it can</p>
+            </div>
+        </div>
+    </div>
+    <div class="services-txt">
+        <h1>Services For You</h1>
+    </div>
+    <div class="final-ct">
+        <div id="wrap1"></div>
+        <div class="wrap animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem school Sarmaya</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card1.jpg" alt="" />
+                <h5>For Working capital needs between Rs. 50,000 to Rs. 2,000,000</h5>
+                Every school faces the challenge of meeting their daily cash flow needs effectively. The TSS product
+                will enable schools to manage the following activities with convenience.</p>
+                <ul>
+                    <li>Managing vendor payments towards bulk purchase of books, uniforms, etc.</li>
+                    <li>Making timely utility bill payments to ensure the services are not disturbed.</li>
+                    <li>Payment to be made/made against renewal of recognition or new recognition for higher classes.
+                    </li>
+                    <li>Payments to be made for registration or recognition with regulatory authorities.</li>
+                    <li>Advance payment of salary and perks to teachers.</li>
+                    <li>Paying the fee for education quality improvement trainings, seminars, or courses for the
+                        schools' owners, principals, and teachers.</li>
+                    <li>Any other urgent working capital needs.</li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- second box start -->
+        <div id="wrap2"></div>
+        <div class="wrap2 animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem School Asasah</h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content2 animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card2.png" alt="" />
+                <h5>For Fixed Assets, Equipment & infrastructure between Rs 2,000,001 to Rs.5,000,000 (Collateralized):
+                </h5>
+                A successful school continues to focus on improving its infrastructure and invests in the comfort of its
+                students for best learning outcomes. The TSA product will enable a school to manage the following
+                activities with a clear funding plan to ensure these major expenses are undertaken most effectively:</p>
+                <ul>
+                    <li>Construction of new school building.</li>
+                    <li>Setting up of a library.</li>
+                    <li>Construction of additional classrooms in existing schools.</li>
+                    <li>Any other capital expenditure which would improve the infrastructure of the school.</li>
+                    <li>Replacement of old school furniture.</li>
+                    <li>Construction of school staff offices, staff quarters, administrative office, library,
+                        laboratories, garden, hostel, kitchen, canteen, and other spaces related to running the school.
+                    </li>
+                    <li>Carrying out additions/alterations/major repairs to the existing school building, including
+                        re-modeling and re-construction.</li>
+                    <li>Purchase of land for a school playground, construction of school building, or setting up of a
+                        new branch.</li>
+                    <li>Purchase of school furniture like benches, desks in any material, purchase of library books,
+                        laboratory equipment, computers, smart boards, laptops, tablets, play equipment, etc.</li>
+                    <li>Replacement of old and worn-out electrical fittings, electrical wires, sanitary pipes,
+                        doors/windows, roofing works, etc.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="final-ct">
+        <!-- third box start -->
+        <div id="wrap3"></div>
+        <div class="wrap3 animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem Teacher Sahulat </h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content3 animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card3.png" alt="" />
+                <h5>For teachers and principals to invest on their own capacity building from Rs 50,000 to Rs 500,000:
+                </h5>
+                Well trained teachers produce the best results and give students an edge in the growingcompetitive
+                landscape . The TTS provides the ability to teachers to invest in their won capacityby helping them
+                access funds for the following activities:</p>
+                <ul>
+                    <li>Training course fees.</li>
+                    <li>Certifications which enable teachers to progress in their roles.</li>
+                    <li>Any other financial need that teachers feel will enhance their skill set.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- fourthbox -->
+        <div id="wrap4"></div>
+        <div class="wrap4 animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem Jaari Sahulat </h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content4 animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card4.png" alt="" />
+                <h5>For Parents to manage School fees and learning aids from Rs 50,000 to Rs 500,000:</h5>
+                One of the major reasons for drop outs from schools is the parents in ability to manage their cash flows
+                for school fee. The TJS will give parents the ability to become more disciplined in their fee payment
+                behavior by giving them the following options:</p>
+                <ul>
+                    <li>Fee payment loans for small tenures.</li>
+                    <li>Working capital loans for their home needs.</li>
+                    <li>Business loans to support their businesses and enable them to generate sufficient revenue to
+                        keep paying schools fees.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="final-ct">
+        <div id="wrap5"></div>
+        <div class="wrap5 animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem dost Sahulat </h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content5 animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card5.png" alt="" />
+                <h5>For contractors and suppliers of school product from Rs 50,000 to Rs 1,500,000</h5>
+                Every school has some key vendors or partners and they too need to manage finances for ensuring
+                continuity of services to the school. The TDS will enable the schools to have a finance provider
+                available on their door steps to meet the financial challenges that their vendors may face through the
+                following options:</p>
+                <ul>
+                    <li>Loans for canteen operators, stationery shops and uniform providers.</li>
+
+                    <li>Financial products for the suppliers of any education related services to the schools tailored
+                        to their specific needs..</li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="wrap6"></div>
+        <div class="wrap6 animate pop">
+            <div class="overlay">
+                <div class="overlay-content animate slide-left delay-2">
+                    <h1 class="animate slide-left pop delay-4">Taleem Quality Improvement Program </h1>
+                    <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">Taleem
+                        <br>Finance <br>COMPANY limited</p>
+                </div>
+                <div class="image-content6 animate slide delay-5"></div>
+                <div class="dots animate">
+                    <div class="dot animate slide-up delay-6"></div>
+                    <div class="dot animate slide-up delay-7"></div>
+                    <div class="dot animate slide-up delay-8"></div>
+                </div>
+            </div>
+            <div class="text">
+                <p><img class="inset" src="assests/card6.png" alt="" />
+                <h5>Customized education quality improvement programs for schools. These will be run internally by TFCL
+                    or through partnerships with other industry experts:</h5>
+                No school can claim to be doing justice to its cause till the learning outcomes and quality of its
+                passing out students can be matched to the best in class from all respects. TQIP will equip all schools
+                working with TFCL to become providers of high-quality education by investing in the following:</p>
+                <ul>
+                    <li>Best practices in school management and operations for school owners and principals.</li>
+                    <li>How to make schools more sustainable/profitable by equipping owners/directors of schools with
+                        key performance indicators scorecards for monitoring progress.</li>
+                    <li>Teacher training skills and latest techniques.</li>
+                    <li>Industry practices on improving key learning outcomes.</li>
+                    <li>Making schools capable of delivering the curriculum at the highest quality.</li>
+                    <li>Other need-based trainings for the school owners, teachers, and parents.</li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <div class="imp-facts">
+        <div class="header">
+            <h1>IMPORTANT FACTS</h1>
+            <p>of Private Education Sector in Pakistan</p>
+        </div>
+        <div class="hr2">
+
+            <hr style="color: white;size: 2px;width: 50%;">
+        </div>
+        <div class="facts">
+            <div class="fact">
+                <h2>5</h2>
+                <p>Provinces</p>
+            </div>
+            <div class="fact">
+                <h2>120,000+</h2>
+                <p>Private Schools</p>
+            </div>
+            <div class="fact">
+                <h2>10M+</h2>
+                <p>Students</p>
+            </div>
+            <div class="fact">
+                <h2>1.5M+</h2>
+                <p>Teachers</p>
+            </div>
+            <div class="fact">
+                <h2>23M+</h2>
+                <p>Out of School Children</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="mvc"></div>
+    <div class="core-txt">
+        <h1>Mission & VISION</h1>
+    </div>
+    <div class="card-container">
+        <div class="cardh transition">
+            <h2 class="transition">OUR MISSION</h2>
+            <p>To be the market leaders in providing financial and non-financial support to schools for improving their
+                sustainability and overall learning outcomes resulting in higher employability for their students
+                especially girls, thus contributing towards a gender equitable and literate society.</p>
+            <div class="cardh_circle transition"></div>
+        </div>
+
+        <div class="cardhh transition">
+            <h2 class="transition">VISION</h2>
+            <p>Removing barriers to the rights of every child to get quality education leading to a more purposeful
+                life.</p>
+            <div class="cardhh_circle transition"></div>
+        </div>
+    </div>
+    <div class="parent-core">
+        <div class="core-ctn">
+            <h1 class="values">CORE VALUES</h1>
+
+            <div class="value-item" id="t"><span style="color: green;">T</span> : <span "  >Transparent </span> </div>
+            <div class=" value-item" id="a"><span style="color: green;">A</span> : <span class="input2">Action </span>
+            </div>
+            <div class="value-item" id="l"><span style="color: green;">L</span> : <span class="input3">Liberal</span>
+            </div>
+            <div class="value-item" id="e"><span style="color: green;">E</span> : <span class="input4">Excellence</span>
+            </div>
+            <div class="value-item" id="e2"><span style="color: green;">E</span> : <span
+                    class="input5">Enthusiastic</span></div>
+            <div class="value-item" id="m"><span style="color: green;">M</span> : <span
+                    class="input6">Meritocracy</span></div>
+
+
+        </div>
+
+    </div>
+
+    <div class="page-wrapper">
+        <div id="waterdrop"></div>
+        <footer>
+          <div class="footer-top">
+            <div class="pt-exebar">
+    
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 footer-col-3">
+                  <div class="widget footer_widget">
+                    <h5 class="footer-title">Address</h5>
+                    <div class="gem-contacts">
+                      <div class="gem-contacts-item gem-contacts-address">Head office :<br>
+                        1st Floor, 15 S Gulberg 2, Lahore, Pakistan.
+                      </div>
+                      <div class="gem-contacts-item gem-contacts-phone"><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a>  +92 42 35246536 - 7</a></div>
+    
+                      <div class="gem-contacts-item gem-contacts-address mt-2">multan Office :<br>Ground Floor, Zikriya Shopping Centre, Opp. Chase Up, Chungi No. 6, Bosan Road, Multan.
+
+                        </div>
+                      <div class="gem-contacts-item gem-contacts-phone"><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a>+92 61 6221189 - 90</a></div>
+                      <div class="gem-contacts-item gem-contacts-address mt-2">Lahore Office :<br>1st Floor, Faysal Bank Building, Opposite Decent Store, Wahdat Road, Lahore.
+
+                       
+                        </div>
+                      <div class="gem-contacts-item gem-contacts-phone"><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a> +92 42 37502987 - 88</a></div>
+    
+                    </div>
+                  </div>
+    
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                  <div class="row">
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                      <div class="widget footer_widget">
+                        <h5 class="footer-title">Recent News</h5>
+                        <ul class="posts  styled">
+                          <li class="clearfix gem-pp-posts">
+                            <div class="gem-pp-posts-text">
+                              <div class="gem-pp-posts-item">
+                                <a href="#">Want to get loan for continue study
+                                </a>
+                              </div>
+                              <div class="gem-pp-posts-date">Call +92 42 35246536 - 7</div>
+                            </div>
+                          </li>
+                          <li class="clearfix gem-pp-posts">
+                            <div class="gem-pp-posts-text">
+                              <div class="gem-pp-posts-item">
+                                <a href="#">we are starting islamic taleem sarmaya
+                                </a>
+                              </div>
+                              <div class="gem-pp-posts-date">for more detail visit our branch</div>
+                            </div>
+                          </li>
+                          <li class="clearfix gem-pp-posts">
+                            <div class="gem-pp-posts-text">
+                              <div class="gem-pp-posts-item">
+                                <a href="">THANKS FOR CHOOSING
+                                </a>
+                              </div>
+                              <div class="gem-pp-posts-date">TALEEEM FINANCE COMPANY LIMITED</div>
+                            </div>
+                          </li>
+    
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                      <div class="widget">
+                        <h5 class="footer-title">Email Us</h5>
+                        <div class="textwidget">
+                          <div role="form" class="wpcf7" id="wpcf7-f4-o1" lang="en-US" dir="ltr">
+    
+                            <form method="post" class="wpcf7-form" novalidate="novalidate">
+    
+                              <div class="contact-form-footer">
+                                <p><span class="wpcf7-form-control-wrap your-first-name"><input type="text" name="your-first-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your name"></span></p>
+                                <p><span class="wpcf7-form-control-wrap your-email_1"><input type="email" name="your-email_1" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="Your email"></span></p>
+                                <p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Your message"></textarea></span></p>
+                                <div><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
+                  <div class="widget widget_gallery gallery-grid-4">
+                    <h5 class="footer-title">Our Gallery</h5>
+                    <ul class="magnific-image">
+    
+                      <li><a class="magnific-anchor"><img src="assests/g1.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g2.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g3.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g4.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g5.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g6.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g7.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g8.jpeg" alt=""></a></li>
+                      <li><a class="magnific-anchor"><img src="assests/g9.jpeg" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+    
+                <div class="col-md-3">
+                  <div class="footer-site-info">2020 © <a href="info@taleemfinance.com" target="_blank">info@taleemfinance.com </a></div>
+                </div>
+    
+                <div class="col-md-6">
+                  <nav id="footer-navigation" class="site-navigation footer-navigation centered-box" role="navigation">
+                    <ul id="footer-menu" class="nav-menu styled clearfix inline-inside">
+                      <li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"><a>Support</a></li>
+                      <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a>Contact Us</a></li>
+                      <li id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"><a>Disclaimer</a></li>
+                      <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a>Add more</a></li>
+                    </ul>
+                  </nav>
+                </div>
+    
+                <div class="col-md-3">
+                  <div id="footer-socials">
+                    <div class="socials inline-inside socials-colored">
+    
+                      <a href="#" target="" title="Facebook" class="socials-item">
+                        <i class="fab fa-facebook-f facebook"></i>
+                      </a>
+                      <a href="#" target="_blank" title="Twitter" class="socials-item">
+                        <i class="fab fa-twitter twitter"></i>
+    
+                      </a>
+                      <a href="#" target="_blank" title="Instagram" class="socials-item">
+                        <i class="fab fa-instagram instagram"></i>
+                      </a>
+                      <a href="#" target="_blank" title="YouTube" class="socials-item">
+                        <i class="fab fa-youtube youtube"></i>
+                      </a>
+                      <a href="#" target="_blank" title="Telegram" class="socials-item">
+                        <i class="fab fa-telegram telegram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+      <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+    
+     <script> jQuery('#waterdrop').raindrops({color:'#1c1f2f', canvasHeight:150, density: 0.1, frequency: 1});
+    </script>
+</body>
+</html>
+<!-- https://preview.colorlib.com/#jackson -->
